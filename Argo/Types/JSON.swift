@@ -29,10 +29,10 @@ public extension JSON {
 }
 
 extension JSON {
-  func jsonForKey(key: Swift.String) -> JSON? {
+  func jsonForKey(key: Swift.String) -> JSON {
     switch self {
-    case let .Object(o): return o[key]
-    default: return .None
+    case let .Object(o): return o[key] ?? .Null
+    default: return .Null
     }
   }
 }
