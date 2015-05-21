@@ -28,6 +28,15 @@ public extension JSON {
   }
 }
 
+extension JSON {
+  func jsonForKey(key: Swift.String) -> JSON? {
+    switch self {
+    case let .Object(o): return o[key]
+    default: return .None
+    }
+  }
+}
+
 extension JSON: Decodable {
   public static func decode(j: JSON) -> Decoded<JSON> {
     return pure(j)
