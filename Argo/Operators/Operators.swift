@@ -19,7 +19,9 @@ public func <|?<A where A: Decodable, A == A.DecodedType>(json: JSON, key: Strin
 
 // Pull embedded value from JSON
 public func <|<A where A: Decodable, A == A.DecodedType>(json: JSON, keys: [String]) -> Decoded<A> {
-  return flatReduce(keys, json, <|) >>- A.decode
+  return keys.reduce(pure(json)) { accum, key in
+    accum.map { $0.jsonForKey(key) } >>- guardNull(key)
+    } >>- A.decode
 }
 
 // Pull embedded optional value from JSON
