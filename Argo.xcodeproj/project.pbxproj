@@ -70,8 +70,6 @@
 		F87EB6A31ABC5F1300E3B0AB /* curry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB6991ABC5F1300E3B0AB /* curry.swift */; };
 		F87EB6A41ABC5F1300E3B0AB /* decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69A1ABC5F1300E3B0AB /* decode.swift */; };
 		F87EB6A51ABC5F1300E3B0AB /* decode.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69A1ABC5F1300E3B0AB /* decode.swift */; };
-		F87EB6A61ABC5F1300E3B0AB /* flatReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */; };
-		F87EB6A71ABC5F1300E3B0AB /* flatReduce.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */; };
 		F87EB6A81ABC5F1300E3B0AB /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69C1ABC5F1300E3B0AB /* sequence.swift */; };
 		F87EB6A91ABC5F1300E3B0AB /* sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69C1ABC5F1300E3B0AB /* sequence.swift */; };
 		F87EB6AA1ABC5F1300E3B0AB /* Decoded.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87EB69E1ABC5F1300E3B0AB /* Decoded.swift */; };
@@ -203,7 +201,6 @@
 		F87AD8B81AF7DFCD00D6E3FF /* Runes.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Runes.framework; path = Carthage/Checkouts/runes/build/Debug/Runes.framework; sourceTree = "<group>"; };
 		F87EB6991ABC5F1300E3B0AB /* curry.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = curry.swift; sourceTree = "<group>"; };
 		F87EB69A1ABC5F1300E3B0AB /* decode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = decode.swift; sourceTree = "<group>"; };
-		F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = flatReduce.swift; sourceTree = "<group>"; };
 		F87EB69C1ABC5F1300E3B0AB /* sequence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sequence.swift; sourceTree = "<group>"; };
 		F87EB69E1ABC5F1300E3B0AB /* Decoded.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Decoded.swift; sourceTree = "<group>"; };
 		F87EB69F1ABC5F1300E3B0AB /* JSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JSON.swift; sourceTree = "<group>"; };
@@ -422,7 +419,6 @@
 			children = (
 				F87EB6991ABC5F1300E3B0AB /* curry.swift */,
 				F87EB69A1ABC5F1300E3B0AB /* decode.swift */,
-				F87EB69B1ABC5F1300E3B0AB /* flatReduce.swift */,
 				F87EB69C1ABC5F1300E3B0AB /* sequence.swift */,
 			);
 			path = Functions;
@@ -680,7 +676,6 @@
 				F87EB6AE1ABC5F1300E3B0AB /* Decodable.swift in Sources */,
 				F87EB6A41ABC5F1300E3B0AB /* decode.swift in Sources */,
 				F87EB6AC1ABC5F1300E3B0AB /* JSON.swift in Sources */,
-				F87EB6A61ABC5F1300E3B0AB /* flatReduce.swift in Sources */,
 				F87EB6A81ABC5F1300E3B0AB /* sequence.swift in Sources */,
 				F8CBE6671A64521000316FBC /* Dictionary.swift in Sources */,
 				EAD9FAF619D0F7900031E006 /* Operators.swift in Sources */,
@@ -720,7 +715,6 @@
 				F87EB6AF1ABC5F1300E3B0AB /* Decodable.swift in Sources */,
 				F87EB6A51ABC5F1300E3B0AB /* decode.swift in Sources */,
 				F87EB6AD1ABC5F1300E3B0AB /* JSON.swift in Sources */,
-				F87EB6A71ABC5F1300E3B0AB /* flatReduce.swift in Sources */,
 				F87EB6A91ABC5F1300E3B0AB /* sequence.swift in Sources */,
 				F8CBE6681A64526300316FBC /* Dictionary.swift in Sources */,
 				F89335761A4CE93600B88685 /* Operators.swift in Sources */,
